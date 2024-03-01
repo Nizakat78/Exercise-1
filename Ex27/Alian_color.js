@@ -9,6 +9,9 @@ else if (alaincolorgreen === "yellow") {
 else if (alaincolorgreen === "Red") {
     console.log("Congratulations! You just earned 15 points for shooting the Red alien.");
 }
+else {
+    console.log("Invalid alien color.");
+}
 //Version for a Yellow alien
 var alaincoloryellow = "yellow";
 if (alaincoloryellow === "Green") {
@@ -20,6 +23,9 @@ else if (alaincoloryellow === "yellow") {
 else if (alaincoloryellow === "Red") {
     console.log("Congratulations! You just earned 15 points for shooting the Red alien.");
 }
+else {
+    console.log("Invalid alien color.");
+}
 //version for a Red 
 var alaincolorRed = " Red";
 if (alaincolorRed === "Green") {
@@ -30,4 +36,7 @@ else if (alaincolorRed === "Yellow") {
 }
 else if (alaincolorRed === " Red") {
     console.log("Congratulations! You just earned 15 points for shooting the Red alien.");
+}
+else {
+    console.log("Invalid alien color.");
 }
